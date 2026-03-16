@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
     <Folder Include="Services\" />
     <Folder Include="Middlewares\" />
   </ItemGroup>
