@@ -1,25 +1,51 @@
-var builder = WebApplication.CreateBuilder(args);
+using CollegeSchedule.Api.Mihalev.Data;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+internal class Program
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    private static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
+
+        // Загружаем переменные из .env файла
+        DotNetEnv.Env.Load();
+
+        // Собираем строку подключения из переменных окружения
+        var connectionString = $"Host={Environment.GetEnvironmentVariable("DB_HOST")};" +
+                               $"Port={Environment.GetEnvironmentVariable("DB_PORT")};" +
+                               $"Database={Environment.GetEnvironmentVariable("DB_NAME")};" +
+                               $"Username={Environment.GetEnvironmentVariable("DB_USER")};" +
+                               $"Password={Environment.GetEnvironmentVariable("DB_PASSWORD")}";
+
+        // Регистрируем контекст базы данных с PostgreSQL
+        builder.Services.AddDbContext<AppDbContext>(options =>
+            options.UseNpgsql(connectionString));
+
+        // Регистрируем сервисы (добавим позже)
+        // builder.Services.AddScoped<IScheduleService, ScheduleService>();
+
+        builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+
+        var app = builder.Build();
+
+        // Настраиваем конвейер HTTP-запросов
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+
+        app.UseHttpsRedirection();
+
+        // Добавляем middleware для обработки ошибок (добавим позже)
+        // app.UseMiddleware<ExceptionMiddleware>();
+
+        app.UseAuthorization();
+
+        app.MapControllers();
+
+        app.Run();
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
