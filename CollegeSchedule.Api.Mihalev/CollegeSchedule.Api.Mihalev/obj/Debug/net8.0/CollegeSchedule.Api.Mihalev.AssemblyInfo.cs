@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CollegeSchedule.Api.Mihalev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1b8d99bd8dccdf2d2c3e11afab4ac5447379ce2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f05c31239897cabf1b950131cda96b1c986aae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CollegeSchedule.Api.Mihalev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CollegeSchedule.Api.Mihalev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
