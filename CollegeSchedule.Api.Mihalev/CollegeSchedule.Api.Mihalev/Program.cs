@@ -1,4 +1,6 @@
 using CollegeSchedule.Api.Mihalev.Data;
+using CollegeSchedule.Api.Mihalev.Services;  
+using CollegeSchedule.Api.Mihalev.Middlewares; 
 using Microsoft.EntityFrameworkCore;
 
 internal class Program
@@ -21,9 +23,8 @@ internal class Program
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(connectionString));
 
-        // Регистрируем сервисы (добавим позже)
-        // builder.Services.AddScoped<IScheduleService, ScheduleService>();
-
+        // Регистрируем сервисы
+        builder.Services.AddScoped<IScheduleService, ScheduleService>();
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
@@ -39,8 +40,8 @@ internal class Program
 
         app.UseHttpsRedirection();
 
-        // Добавляем middleware для обработки ошибок (добавим позже)
-        // app.UseMiddleware<ExceptionMiddleware>();
+        // Добавляем middleware для обработки ошибок
+        app.UseMiddleware<ExceptionMiddleware>();
 
         app.UseAuthorization();
 
