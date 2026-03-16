@@ -15,4 +15,3 @@ namespace CollegeSchedule.Api.Mihalev.Models
         public string Name { get; set; } = null!;
     }
 }
-

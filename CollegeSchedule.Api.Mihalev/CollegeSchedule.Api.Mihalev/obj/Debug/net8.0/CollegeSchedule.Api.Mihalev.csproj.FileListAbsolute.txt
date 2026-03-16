@@ -1,0 +1,11 @@
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.csproj.AssemblyReference.cache
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.AssemblyInfoInputs.cache
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.AssemblyInfo.cs
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.csproj.CoreCompileInputs.cache
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\EFCoreNpgsqlNetTopologySuite.cs
+C:\Users\monke\OneDrive\Desktop\natk-practice\natk-schedule-api\CollegeSchedule.Api.Mihalev\CollegeSchedule.Api.Mihalev\obj\Debug\net8.0\CollegeSchedule.Api.Mihalev.sourcelink.json
