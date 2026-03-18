@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|c:\\users\\monke\\onedrive\\desktop\\natk-practice\\natk-schedule-api\\collegeschedule.api.mihalev\\collegeschedule.api.mihalev\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|solutionrelative:collegeschedule.api.mihalev\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|c:\\users\\monke\\onedrive\\desktop\\natk-practice\\natk-schedule-api\\collegeschedule.api.mihalev\\collegeschedule.api.mihalev\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|solutionrelative:collegeschedule.api.mihalev\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|c:\\users\\monke\\onedrive\\desktop\\natk-practice\\natk-schedule-api\\collegeschedule.api.mihalev\\collegeschedule.api.mihalev\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|solutionrelative:collegeschedule.api.mihalev\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|c:\\users\\monke\\onedrive\\desktop\\natk-practice\\natk-schedule-api\\collegeschedule.api.mihalev\\collegeschedule.api.mihalev\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|solutionrelative:collegeschedule.api.mihalev\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99A6B2A6-7382-4540-9975-595132F97B91}|CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev.csproj|c:\\users\\monke\\onedrive\\desktop\\natk-practice\\natk-schedule-api\\collegeschedule.api.mihalev\\collegeschedule.api.mihalev\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,19 +62,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScheduleService.cs",
-              "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
-              "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
-              "ToolTip": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
-              "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T18:14:27.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IScheduleService.cs",
               "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Services\\IScheduleService.cs",
               "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Services\\IScheduleService.cs",
@@ -86,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Program.cs",
               "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Program.cs",
@@ -94,25 +82,49 @@
               "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\Program.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAewCEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:40:04.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T13:40:04.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\.env",
               "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\.env",
               "ToolTip": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\.env",
               "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-03-16T13:29:08.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwCEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T14:05:58.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
+              "ToolTip": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\Services\\ScheduleService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T18:14:27.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Middlewares\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Middlewares\\ExceptionMiddleware.cs",
@@ -121,18 +133,6 @@
               "ViewState": "AgIAACMAAAAAAAAAAAAwwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T18:09:16.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScheduleController.cs",
-              "DocumentMoniker": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
-              "RelativeDocumentMoniker": "CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
-              "ToolTip": "C:\\Users\\monke\\OneDrive\\Desktop\\natk-practice\\natk-schedule-api\\CollegeSchedule.Api.Mihalev\\CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
-              "RelativeToolTip": "CollegeSchedule.Api.Mihalev\\Controllers\\ScheduleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T14:05:58.486Z"
             },
             {
               "$type": "Document",
